@@ -1,0 +1,199 @@
+body, html{
+    height:100%;
+    margin:0px;
+    background-color:black
+}
+.navbar{
+    background-color: black;
+}
+  .top{
+    background-color: black;
+}
+nav , h1 {
+    display:inline;  
+    padding-left: 2%;
+    
+}
+.navbar {
+    color: darkgray;
+}
+nav ul{
+    display:inline;
+    float:top;
+    width: absolute;
+    padding-left: 20%;
+    
+
+}
+
+nav li{
+    display:inline;
+    margin:2%;
+    
+}
+nav a{
+    color:darkgray;
+    text-decoration: none;
+}
+
+   
+.Title-Text {
+    text-align: center;
+    display:block;
+    color: white;
+    height: 100%; 
+    padding-top: 18%;
+    font-size: 190px;
+    
+}
+
+
+.Title-Image {
+    background-image: url(./images/Hero.png);
+    margin: 0px;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.april, h2{
+
+    padding-left: 5%;
+    height:100%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 1px solid black;
+    background-color: beige;
+    font-family: "Lucida Handwriting";
+    font-weight: normal;
+
+
+}
+
+
+     
+
+
+
+
+ .body{
+    background: radial-gradient( rgb(132, 208, 208) 50%, rgb(149, 8, 32));
+    height:50%;
+    display:grid;
+    grid-template-columns: [first] 40% [line2] 20% [line3] 40% [end];
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    Column-gap: 2%;
+    row-gap: 2%;
+    grid-template-areas: 
+    
+    "Raisin1 info1 read1"
+    "Raisin2 info2 read2"
+    "Raisin3 info3 read3" 
+    "Raisin4 info4 read4"
+}
+
+.Raisin1{
+    grid-area: Raisin1;
+    justify-self: end;
+    
+    
+
+}
+
+.Raisin2{
+    grid-area: Raisin2;
+    justify-self: end
+}
+.Raisin3{
+    grid-area: Raisin3;
+    justify-self: end
+}
+.Raisin4{
+    grid-area: Raisin4;
+    justify-self: end
+}
+
+.read1{
+    grid-area: read1;
+    
+}
+
+.read2{
+    grid-area: read2;
+}
+
+.read3{
+    grid-area: read3;
+}
+
+.read4{
+    grid-area: read4;
+
+}
+
+.info1{
+    grid-area: info1;
+    font-size: 70%;
+    justify-self: center
+}
+
+.info2{
+    grid-area: info2;
+    font-size: 70%;
+    justify-self: center
+}
+
+.info3{
+    grid-area: info3;
+    font-size: 70%;
+    justify-self: center
+}
+.i1nfo4{
+    grid-area: info4;
+    font-size: 70%;
+    justify-self: center
+}
+
+
+.map, img {
+    float: left;
+    padding-left: 10%;
+    padding-top: 10px;
+    background-color:black
+
+}
+
+footer {
+    background-color:black;
+    column-gap:1%;
+    padding-top:2%;
+    float:right;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+
+    "col1 col2 col3"
+}
+
+.col1{
+    grid-area: col1;
+    color: white;
+    font-weight:none;
+    
+}
+
+.col2{
+    grid-area: col2;
+    color: white;
+    font-weight:none;
+}
+
+.col3{
+    grid-area: col3;
+    color:white;
+    font-weight:none;
+}
+
+
